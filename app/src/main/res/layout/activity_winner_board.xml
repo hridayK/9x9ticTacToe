@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WinnerBoard"
+    android:orientation="vertical"
+    android:background="#DDD">
+
+        <TextView
+            android:id="@+id/winnerTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:text="Winner:"
+            android:textSize="34sp"
+            android:textAlignment="center"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/winnerName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text=""
+            android:textSize="40sp"
+            android:textStyle="bold"
+            android:layout_margin="10dp"/>
+
+        <TextView
+            android:id="@+id/totalSteps"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            android:text="Total moves: "
+            android:layout_margin="10dp"/>
+        <TextView
+            android:id="@+id/pOneSteps"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Moves by player one:"
+            android:textSize="24sp"
+            android:textColor="@color/black"
+            android:layout_margin="10dp"/>
+
+        <TextView
+            android:id="@+id/pTwoSteps"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Moves by player two:"
+            android:textSize="24sp"
+            android:textColor="@color/black"
+            android:layout_margin="10dp"/>
+</LinearLayout>
