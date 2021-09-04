@@ -2,7 +2,10 @@
 an attempt to make a virtual version of a 9x9 tic tac toe game using android studio
 
 # How to play the game?
+Checkout the given link to learn the rules of the game
 https://www.youtube.com/watch?v=37PC0bGMiTI
+
+# Screenshots from the project
 
 ![image](https://user-images.githubusercontent.com/16136188/132081092-70207fa9-c91b-4e21-be2f-9d7d978387fb.png)
 ![image](https://user-images.githubusercontent.com/16136188/132081109-b8c786f0-777d-49e8-9dda-bea53b8b91d2.png)
